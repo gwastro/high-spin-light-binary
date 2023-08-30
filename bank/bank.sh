@@ -1,0 +1,20 @@
+OMP_NUM_THREADS=1 python ./pycbc_brute_bank \
+--verbose \
+--output-file bankmass1to2lowf20.hdf \
+--minimal-match 0.97 \
+--tolerance .001 \
+--buffer-length 4 \
+--sample-rate 2048 \
+--tau0-threshold 0.5 \
+--approximant TaylorF2 \
+--tau0-crawl 5 \
+--tau0-start 0 \
+--tau0-end  600 \
+--psd-file o3psd.txt \
+--min 1 1 -0.95 -0.95 \
+--max 5 2 0.95 0.95 \
+--max-q 95 \
+--max-mtotal 1000 \
+--params mass1 mass2 spin1z spin2z \
+--seed 1 \
+--low-frequency-cutoff 20.0
