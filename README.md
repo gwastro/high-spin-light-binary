@@ -13,6 +13,12 @@ A preprint version of the paper is [available on arxiv](https://arxiv.org/abs/23
 
 This release contains configuration files of the search. 
 
+## Search results ##
+
+We also release all the triggers from the search. Due to the file size limit of github, we store the file in Atlas cluster's server. The file size is 265M.
+
+Click [here](https://www.atlas.aei.uni-hannover.de/work/yifan.wang/search-high-spin/notebook/extract/coinc.hdf) to start download `coinc.hdf`. It contains associated parameters of each trigger, such as SNR, ranking statistic, trigger time, etc.
+
 ## License and Citation
 
 ![Creative Commons License](https://i.creativecommons.org/l/by-sa/3.0/us/88x31.png "Creative Commons License")
