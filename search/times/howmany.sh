@@ -1,0 +1,1 @@
+ls *.ini | wc -l
